@@ -1,0 +1,24 @@
+# LogDetect — Requirements
+#
+# This project uses ONLY Python standard library modules.
+# No third-party packages are required.
+# No installation via pip is needed.
+#
+# Runtime requirement:
+#   Python >= 3.9
+#
+# Standard library modules used:
+#   tkinter   — desktop GUI framework (bundled with Python)
+#   csv       — CSV file parsing (bundled with Python)
+#   pathlib   — file path handling (bundled with Python)
+#
+# ------------------------------------------------------------
+# Linux users only:
+#   tkinter is sometimes shipped separately on Linux.
+#   If you see "ModuleNotFoundError: No module named 'tkinter'"
+#   install it with:
+#
+#     Ubuntu / Debian:   sudo apt install python3-tk
+#     Fedora:            sudo dnf install python3-tkinter
+#     Arch:              sudo pacman -S tk
+# ------------------------------------------------------------
